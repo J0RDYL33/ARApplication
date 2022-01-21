@@ -352,9 +352,11 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/VSSettingsProvider.ref.dll"
 "Assets/Scripts/ARFeatheredPlaneMeshVisualizer.cs"
+"Assets/Scripts/ChangeMultipleBool.cs"
 "Assets/Scripts/DebugTexter.cs"
 "Assets/Scripts/FireManager.cs"
 "Assets/Scripts/Logger.cs"
+"Assets/Scripts/PlacementControllerWithMultiple.cs"
 "Assets/Scripts/Singleton.cs"
 -langversion:8.0
 
