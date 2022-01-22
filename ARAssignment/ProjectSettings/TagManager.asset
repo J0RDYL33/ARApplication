@@ -6,6 +6,7 @@ TagManager:
   tags:
   - fire
   - water
+  - steam
   layers:
   - Default
   - TransparentFX

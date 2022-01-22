@@ -78,10 +78,5 @@ Library\Bee\artifacts\movedfrom\UnityEngine.VRModule.dll_17144764212195235734.mo
 Library\Bee\artifacts\movedfrom\UnityEngine.WindModule.dll_8111778090218338162.movedfrom
 Library\Bee\artifacts\movedfrom\UnityEngine.XRModule.dll_2354594510206690548.movedfrom
 Library\Bee\artifacts\movedfrom\UnityEditor.Android.Extensions.dll_13827904788879813318.movedfrom
-Library\Bee\artifacts\movedfrom\UnityEditor.AppleTV.Extensions.dll_3572474594259946850.movedfrom
-Library\Bee\artifacts\movedfrom\UnityEditor.iOS.Extensions.Xcode.dll_2765839699085666072.movedfrom
-Library\Bee\artifacts\movedfrom\UnityEditor.iOS.Extensions.Common.dll_10608668520465970467.movedfrom
-Library\Bee\artifacts\movedfrom\UnityEditor.iOS.Extensions.dll_13962160691912449874.movedfrom
-Library\Bee\artifacts\movedfrom\UnityEditor.iOS.Extensions.Xcode.dll_17623376333995098841.movedfrom
-Library\Bee\artifacts\movedfrom\UnityEditor.UWP.Extensions.dll_1746225542512287757.movedfrom
+Library\Bee\artifacts\movedfrom\UnityEditor.WebGL.Extensions.dll_9377375830260136370.movedfrom
 Library\Bee\artifacts\movedfrom\UnityEditor.WindowsStandalone.Extensions.dll_14363354145539977122.movedfrom

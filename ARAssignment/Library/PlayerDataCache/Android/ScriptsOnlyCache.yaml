@@ -3,6 +3,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - ARFeatheredPlaneMeshVisualizer
     - ChangeMultipleBool
+    - FireCollision
     - FireManager
     - Logger
     - PlacementControllerWithMultiple
@@ -124,6 +125,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 49
       Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
     - Class: 65
@@ -135,146 +138,150 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1642}
-    - Class: 114
       Script: {instanceID: 1644}
     - Class: 114
       Script: {instanceID: 1646}
     - Class: 114
       Script: {instanceID: 1648}
     - Class: 114
-      Script: {instanceID: 1658}
+      Script: {instanceID: 1650}
     - Class: 114
-      Script: {instanceID: 1680}
+      Script: {instanceID: 1660}
     - Class: 114
-      Script: {instanceID: 1836}
+      Script: {instanceID: 1682}
     - Class: 114
-      Script: {instanceID: 1894}
+      Script: {instanceID: 1838}
     - Class: 114
-      Script: {instanceID: 2566}
+      Script: {instanceID: 1896}
     - Class: 114
-      Script: {instanceID: 2814}
+      Script: {instanceID: 2568}
     - Class: 114
-      Script: {instanceID: 2940}
+      Script: {instanceID: 2816}
     - Class: 114
-      Script: {instanceID: 3280}
+      Script: {instanceID: 2942}
     - Class: 114
-      Script: {instanceID: 3900}
+      Script: {instanceID: 3282}
     - Class: 114
-      Script: {instanceID: 4020}
+      Script: {instanceID: 3902}
     - Class: 114
-      Script: {instanceID: 4064}
+      Script: {instanceID: 4022}
     - Class: 114
-      Script: {instanceID: 4154}
+      Script: {instanceID: 4066}
     - Class: 114
-      Script: {instanceID: 4262}
+      Script: {instanceID: 4156}
     - Class: 114
-      Script: {instanceID: 4292}
+      Script: {instanceID: 4264}
     - Class: 114
-      Script: {instanceID: 4298}
+      Script: {instanceID: 4294}
     - Class: 114
-      Script: {instanceID: 4398}
+      Script: {instanceID: 4300}
     - Class: 114
-      Script: {instanceID: 4622}
+      Script: {instanceID: 4400}
     - Class: 114
-      Script: {instanceID: 4788}
+      Script: {instanceID: 4624}
     - Class: 114
-      Script: {instanceID: 4796}
+      Script: {instanceID: 4750}
     - Class: 114
-      Script: {instanceID: 4876}
+      Script: {instanceID: 4792}
     - Class: 114
-      Script: {instanceID: 4966}
+      Script: {instanceID: 4800}
     - Class: 114
-      Script: {instanceID: 5246}
+      Script: {instanceID: 4880}
     - Class: 114
-      Script: {instanceID: 5258}
+      Script: {instanceID: 4970}
     - Class: 114
-      Script: {instanceID: 5264}
+      Script: {instanceID: 5250}
     - Class: 114
-      Script: {instanceID: 5438}
+      Script: {instanceID: 5262}
     - Class: 114
-      Script: {instanceID: 5470}
+      Script: {instanceID: 5268}
     - Class: 114
-      Script: {instanceID: 5636}
+      Script: {instanceID: 5442}
     - Class: 114
-      Script: {instanceID: 5886}
+      Script: {instanceID: 5474}
     - Class: 114
-      Script: {instanceID: 6032}
+      Script: {instanceID: 5640}
     - Class: 114
-      Script: {instanceID: 7036}
+      Script: {instanceID: 5890}
     - Class: 114
-      Script: {instanceID: 7060}
+      Script: {instanceID: 6036}
     - Class: 114
-      Script: {instanceID: 7142}
+      Script: {instanceID: 7040}
     - Class: 114
-      Script: {instanceID: 7152}
+      Script: {instanceID: 7064}
     - Class: 114
-      Script: {instanceID: 7440}
+      Script: {instanceID: 7146}
+    - Class: 114
+      Script: {instanceID: 7156}
     - Class: 114
       Script: {instanceID: 7444}
     - Class: 114
-      Script: {instanceID: 7468}
+      Script: {instanceID: 7448}
     - Class: 114
-      Script: {instanceID: 7862}
+      Script: {instanceID: 7472}
     - Class: 114
-      Script: {instanceID: 8040}
+      Script: {instanceID: 7846}
     - Class: 114
-      Script: {instanceID: 8084}
+      Script: {instanceID: 7868}
     - Class: 114
-      Script: {instanceID: 8256}
+      Script: {instanceID: 8046}
     - Class: 114
-      Script: {instanceID: 8274}
+      Script: {instanceID: 8090}
     - Class: 114
-      Script: {instanceID: 8386}
+      Script: {instanceID: 8258}
     - Class: 114
-      Script: {instanceID: 8392}
+      Script: {instanceID: 8264}
     - Class: 114
-      Script: {instanceID: 8550}
+      Script: {instanceID: 8282}
     - Class: 114
-      Script: {instanceID: 8608}
+      Script: {instanceID: 8394}
     - Class: 114
-      Script: {instanceID: 8670}
+      Script: {instanceID: 8400}
     - Class: 114
-      Script: {instanceID: 8786}
+      Script: {instanceID: 8558}
     - Class: 114
-      Script: {instanceID: 8802}
+      Script: {instanceID: 8616}
     - Class: 114
-      Script: {instanceID: 8864}
+      Script: {instanceID: 8678}
     - Class: 114
-      Script: {instanceID: 8956}
+      Script: {instanceID: 8794}
     - Class: 114
-      Script: {instanceID: 9164}
+      Script: {instanceID: 8810}
     - Class: 114
-      Script: {instanceID: 9350}
+      Script: {instanceID: 8872}
     - Class: 114
-      Script: {instanceID: 9440}
+      Script: {instanceID: 8964}
     - Class: 114
-      Script: {instanceID: 9480}
+      Script: {instanceID: 9172}
     - Class: 114
-      Script: {instanceID: 9602}
+      Script: {instanceID: 9358}
     - Class: 114
-      Script: {instanceID: 9872}
+      Script: {instanceID: 9448}
     - Class: 114
-      Script: {instanceID: 10346}
+      Script: {instanceID: 9488}
     - Class: 114
-      Script: {instanceID: 10452}
+      Script: {instanceID: 9610}
     - Class: 114
-      Script: {instanceID: 10576}
+      Script: {instanceID: 9880}
     - Class: 114
-      Script: {instanceID: 10898}
+      Script: {instanceID: 10354}
     - Class: 114
-      Script: {instanceID: 11020}
+      Script: {instanceID: 10460}
     - Class: 114
-      Script: {instanceID: 11234}
+      Script: {instanceID: 10584}
     - Class: 114
-      Script: {instanceID: 11286}
+      Script: {instanceID: 10906}
     - Class: 114
-      Script: {instanceID: 26492}
+      Script: {instanceID: 11028}
     - Class: 114
-      Script: {instanceID: 36312}
+      Script: {instanceID: 11242}
+    - Class: 114
+      Script: {instanceID: 11294}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
+      Script: {instanceID: 0}
+    - Class: 136
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -891,6 +898,12 @@ ScriptsOnlyBuild:
     className: UnityOnCollisionExit2DMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 176d7d134a9df02385034cafc64f02e2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FireCollision
+  - hash:
+      serializedVersion: 2
       Hash: da901bd63e59a4ec286c26196b776379
     assemblyName: Unity.XR.Interaction.Toolkit.dll
     namespaceName: UnityEngine.XR.Interaction.Toolkit.AR
@@ -1011,7 +1024,7 @@ ScriptsOnlyBuild:
     className: TrackedDeviceRaycaster
   - hash:
       serializedVersion: 2
-      Hash: 1db765e208065a3eb263e3e5e0a32a51
+      Hash: 52e5e15d074c6311d2a0cd6bada51445
     assemblyName: Unity.XR.Interaction.Toolkit.dll
     namespaceName: UnityEngine.XR.Interaction.Toolkit.AR
     className: ARPlacementInteractable
@@ -1485,6 +1498,12 @@ ScriptsOnlyBuild:
     className: PlayerInputManagerEditor
   - hash:
       serializedVersion: 2
+      Hash: eb36ff2bf961188703bd8a4a57c25996
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ChangeMultipleBool
+  - hash:
+      serializedVersion: 2
       Hash: 6b3057497eb6f0e52612476af702bf8c
     assemblyName: Unity.RenderPipelines.Core.Runtime.dll
     namespaceName: UnityEngine.Rendering.UI
@@ -1519,6 +1538,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: c627225c234da5bd90448fb06b7674f6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlacementControllerWithMultiple
   - hash:
       serializedVersion: 2
       Hash: 8d35f16c5022311c6f4d9432be73bfcf
@@ -2137,19 +2162,7 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: ee7e0984e12036ee92cff95af6f74b49
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlacementControllerWithMultiple
-  - hash:
-      serializedVersion: 2
-      Hash: eb36ff2bf961188703bd8a4a57c25996
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ChangeMultipleBool
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/Computing/Documents/ARApplication/ARAssignment/Test1.apk
+  playerPath: E:/Unity Games/ARApplication/ARAssignment/test1.apk

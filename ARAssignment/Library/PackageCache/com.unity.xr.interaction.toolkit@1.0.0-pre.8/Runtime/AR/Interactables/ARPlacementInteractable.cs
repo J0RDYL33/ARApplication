@@ -93,8 +93,6 @@ namespace UnityEngine.XR.Interaction.Toolkit.AR
             set => m_PlacementPrefab = value;
         }
 
-        public GameObject fireInteractable;
-
         [SerializeField]
         [Tooltip("The LayerMask that is used during an additional raycast when a user touch does not hit any AR trackable planes.")]
         LayerMask m_FallbackLayerMask;
