@@ -136,7 +136,7 @@ namespace UnityEngine.XR.Interaction.Toolkit.AR
 
         readonly ARObjectPlacementEventArgs m_ObjectPlacementEventArgs = new ARObjectPlacementEventArgs();
 
-        static readonly List<ARRaycastHit> s_Hits = new List<ARRaycastHit>();
+        public readonly List<ARRaycastHit> s_Hits = new List<ARRaycastHit>();
 
         /// <summary>
         /// Gets the pose for the object to be placed from a raycast hit triggered by a <see cref="TapGesture"/>.

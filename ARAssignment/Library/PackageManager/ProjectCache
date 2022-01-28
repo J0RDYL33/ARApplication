@@ -75,9 +75,11 @@ m_ResolvedPackages:
     - 1.14.1
     - 1.14.4
     - 1.14.7
+    - 1.14.9
     - 1.15.1
     - 1.15.4
     - 1.15.7
+    - 1.15.9
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -95,9 +97,11 @@ m_ResolvedPackages:
     - 1.14.1
     - 1.14.4
     - 1.14.7
+    - 1.14.9
     - 1.15.1
     - 1.15.4
     - 1.15.7
+    - 1.15.9
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -270,10 +274,12 @@ m_ResolvedPackages:
     - 2.0.9
     - 2.0.11
     - 2.0.12
+    - 2.0.14
     compatible:
     - 2.0.11
     - 2.0.12
-    verified: 2.0.12
+    - 2.0.14
+    verified: 2.0.14
   dependencies:
   - name: com.unity.test-framework
     version: 1.1.9
@@ -548,9 +554,13 @@ m_ResolvedPackages:
     - 1.1.27
     - 1.1.29
     - 1.1.30
+    - 2.0.1-pre.12
+    - 2.0.1-pre.18
     compatible:
     - 1.1.29
     - 1.1.30
+    - 2.0.1-pre.12
+    - 2.0.1-pre.18
     verified: 1.1.30
   dependencies:
   - name: com.unity.ext.nunit
@@ -3906,8 +3916,10 @@ m_ResolvedPackages:
     - 1.0.0
     - 1.0.5
     - 1.0.6
+    - 2.0.2
     compatible:
     - 1.0.6
+    - 2.0.2
     verified: 1.0.6
   dependencies: []
   resolvedDependencies: []

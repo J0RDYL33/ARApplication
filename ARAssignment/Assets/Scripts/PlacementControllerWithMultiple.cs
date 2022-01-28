@@ -20,6 +20,7 @@ public class PlacementControllerWithMultiple : MonoBehaviour
     public bool isSelected;
     public GameObject fireInteractable;
     public GameObject waterInteractable;
+    public GameObject steamInteractable;
 
 
     void Awake()
@@ -50,6 +51,7 @@ public class PlacementControllerWithMultiple : MonoBehaviour
                 firec.a = 1f;
                 waterc.a = 0.5f;
                 waterInteractable.SetActive(false);
+                steamInteractable.SetActive(false);
                 fireInteractable.SetActive(true);
                 break;
             case "WaterInteractable":
@@ -58,6 +60,7 @@ public class PlacementControllerWithMultiple : MonoBehaviour
                 firec.a = 0.5f;
                 waterc.a = 1f;
                 fireInteractable.SetActive(false);
+                steamInteractable.SetActive(false);
                 waterInteractable.SetActive(true);
                 break;
         }
